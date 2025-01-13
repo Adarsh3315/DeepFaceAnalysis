@@ -1,5 +1,4 @@
 # DeepFace Analysis
-
 ## Overview
 This project provides a user-friendly GUI application for analyzing facial features using DeepFace. The application can analyze age, gender, race, and emotions from images or real-time video streams. It is developed using Python and Tkinter, and it leverages powerful models like DeepFace and RetinaFace for face detection and analysis.
 
