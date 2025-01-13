@@ -24,34 +24,6 @@ Ensure you have Python 3.8+ installed. Clone or download the repository to your 
 ### Installation
 This project is part of a larger multimodal system. The `requirements.txt` file contains dependencies for the entire system. If you only want to use this model, install the following minimal dependencies:
 
-```bash
-pip install deepface retinaface opencv-python numpy tkinter
-```
-
-Alternatively, you can install all dependencies for the multimodal system:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Running the Application
-1. Navigate to the project directory.
-2. Run the main script:
-
-   ```bash
-   python main.py
-   ```
-
-3. Use the menu options to upload an image or start real-time analysis.
-
-### Menu Options
-- **File Menu:**
-  - `Open Image`: Upload an image for face analysis.
-  - `Exit`: Close the application.
-- **Other Models Menu:** Access other multimodal applications by selecting the desired model.
-- **Help Menu:**
-  - `About`: Displays information about the application.
-
 ## Code Structure
 - **`preprocess_image(img_path):`** Preprocesses the image for analysis.
 - **`weighted_average_results(results):`** Aggregates results from multiple models using a weighted average.
@@ -78,8 +50,6 @@ Feel free to fork the repository, submit issues, or suggest improvements. Contri
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
----
 
 Developed by **A&J** as part of the Multimodal System.
 
