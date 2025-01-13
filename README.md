@@ -51,6 +51,5 @@ Feel free to fork the repository, submit issues, or suggest improvements. Contri
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contribution
 Developed by **A&J** as part of the Multimodal System.
 
